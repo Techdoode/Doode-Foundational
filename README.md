@@ -1,9 +1,13 @@
-Welcome to WP-Forge v5.5.2.1
+Welcome to Doode-Foundational v5.5.2.1
 ====================
 
-###Updated 05-06-2015
+###Initial Commit 2015-05-30
 
-WP-Forge is a combination of two powerful platforms. The first being WordPress, the leading open source blogging tool and content management system. The second being Zurb's Foundation for Sites, the most advanced responsive front-end framework in the world.
+Doode-Foundational is a fork of WP-Forge, which can be found here: https://github.com/tsquez/wp-forge
+
+
+Doode-Foundational is a WordPress theme based on Zurb's highly successful framework, Foundation 5.
+The goal is to Sassify WP-Forge and integrate additional resources to extend its power.
 
 ##WP-Forge Demo##
 You can see a demo of WP-Forge here: http://themeawesome.com/themes/wpforge/

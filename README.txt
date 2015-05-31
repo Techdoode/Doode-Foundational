@@ -1,5 +1,5 @@
-=== WP-Forge ===
-Tags: light, black, white, one-column, two-columns, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, full-width-template, microformats, post-formats, sticky-post, translation-ready
+=== Doode-Foundational ===
+Tags: light, black, white, one-column, two-columns, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, full-width-template, microformats, post-formats, sticky-post, translation-ready, Sass
 Requires at least: 4.2.1
 Tested up to: 4.2.1
 Stable tag: 5.5.2.1
@@ -8,7 +8,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-A simple, responsive theme, WP-Forge is a combination of two powerful platforms. The first, of course, being WordPress, the leading open source blogging tool and content management system. The second being ZURB Foundation, the most advanced responsive front-end framework in the world. You can use WP-Forge right out of the box, or use it with WP-Starter (WP-Forges' WordPress child theme) to build the site you've always wanted.
+A simple, responsive theme, based on WP-Forge.  It integrates the highly successful Zurb Foundation 5 framework into WordPress, the leading open source content management system. 
 
 == Bundled Resources ==
 
