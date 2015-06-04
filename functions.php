@@ -202,10 +202,10 @@ if ( ! function_exists( 'wpforge_google_fonts' ) ) {
  */
 function wpforge_scripts() {
     wp_enqueue_style('wpforge-genericons', get_template_directory_uri() . '/fonts/genericons.css','', '3.3' );
-    wp_enqueue_style('wpforge-normalize', get_template_directory_uri() . '/css/normalize.css','', '3.0.3' );
-    wp_enqueue_style('wpforge-foundation', get_template_directory_uri() . '/css/foundation.css','', '5.5.2' );
+    wp_enqueue_style('wpforge-normalize', get_template_directory_uri() . '/bower_components/foundation/css/normalize.css','', '3.0.3' );
+    wp_enqueue_style('wpforge-foundation', get_template_directory_uri() . '/bower_components/foundation/css/foundation.css','', '5.5.2' );
     wp_enqueue_style('wpforge', get_stylesheet_uri(),'', '5.5.2' );
-	wp_enqueue_script ('wpforge_modernizr', get_template_directory_uri() . '/js/vendor/modernizr.js', array('jquery'), '2.8.3', false );
+	wp_enqueue_script ('wpforge_modernizr', get_template_directory_uri() . '/bower_components/modernizr/modernizr.js', array('jquery'), '2.8.3', false );
 	wp_enqueue_script ('wpforge_foundation', get_template_directory_uri() . '/js/foundation.min.js', array('jquery'), '5.5.2', true );
 
 	/**
