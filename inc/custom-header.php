@@ -5,8 +5,8 @@
  * See http://codex.wordpress.org/Custom_Headers
  *
  * @package WordPress
- * @subpackage WP_Forge
- * @since WP-Forge 5.5.1.7
+ * @subpackage Doode_Foundational
+ * @since Doode-Foundational 5.5.2.1
  */
 
 /**
@@ -17,7 +17,7 @@
  * @uses wpforge_admin_header_style() to style wp-admin form.
  * @uses wpforge_admin_header_image() to add custom markup to wp-admin form.
  *
- * @since WP-Forge 5.5.1.7
+ * @since Doode-Foundational 5.5.2.1
  */
 if ( ! function_exists( 'wpforge_custom_header_setup' ) ) {
 	function wpforge_custom_header_setup() {
@@ -54,7 +54,7 @@ if ( ! function_exists( 'wpforge_custom_header_setup' ) ) {
  *
  * get_header_textcolor() options: 444444 is default, hide text (returns 'blank'), or any hex value.
  *
- * @since WP-Forge 5.5.1.7
+ * @since Doode-Foundational 5.5.2.1
  */
 if ( ! function_exists( 'wpforge_header_style' ) ) {
 	function wpforge_header_style() {

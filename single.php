@@ -3,8 +3,8 @@
  * The Template for displaying all single posts.
  *
  * @package WordPress
- * @subpackage WP_Forge
- * @since WP-Forge 5.5.1.7
+ * @subpackage Doode_Foundational
+ * @since Doode-Foundational 5.5.2.1
  */
 
 get_header(); ?>

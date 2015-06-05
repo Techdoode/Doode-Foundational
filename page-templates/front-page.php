@@ -8,7 +8,7 @@
  * anything you'd like.
  *
  * @package WordPress
- * @subpackage WP_Forge
+ * @subpackage Doode_Foundational
  * @since WP-Forge 5.5.0.1
  */
 

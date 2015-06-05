@@ -5,8 +5,9 @@
  * The area of the page that contains comments and the comment form.
  *
  * @package WordPress
- * @subpackage WP_Forge
- * @since WP-Forge 5.5.1.7
+ * @subpackage Doode_Foundational
+ * @since Doode-Foundational 5.5.2.1
+ * @since Doode-Foundational 5.5.2.1
  */
 
 /*

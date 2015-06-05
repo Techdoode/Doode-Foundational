@@ -5,8 +5,8 @@
  * Displays all of the <head> section and everything up till <section class="content_wrap row" role="document">
  *
  * @package WordPress
- * @subpackage WP_Forge
- * @since WP-Forge 5.5.1.7
+ * @subpackage Doode_Foundational
+ * @since Doode-Foundational 5.5.2.1
  */
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">

@@ -3,7 +3,7 @@
  *
  * Contains handlers to make Theme Customizer preview reload changes asynchronously.
  * Things like site title, description, and background color changes.
- * @since WP-Forge 5.5.1.7
+ * @since Doode-Foundational 5.5.2.1
  */
 
 ( function( $ ) {	

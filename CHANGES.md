@@ -1,4 +1,4 @@
-Theme Name: WP-Forge
+Theme Name: Doode-Foundational
 File Name: Changelog
 Tested up to: 4.2.1
 Stable tag: 5.5.2.1

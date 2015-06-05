@@ -3,8 +3,8 @@
  * The template for displaying the author information at the bottom of posts if a user has filled out their description and this is a multi-author blog, show a bio on their entries.
  *
  * @package WordPress
- * @subpackage WP_Forge
- * @since WP-Forge 5.5.1.7
+ * @subpackage Doode_Foundational
+ * @since Doode-Foundational 5.5.2.1
  */
 ?>
 

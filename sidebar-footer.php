@@ -5,8 +5,8 @@
  * If no active widgets are in either sidebar, they will be hidden completely.
  *
  * @package WordPress
- * @subpackage WP_Forge
- * @since WP-Forge 5.5.1.7
+ * @subpackage Doode_Foundational
+ * @since Doode-Foundational 5.5.2.1
  */
 
 /*

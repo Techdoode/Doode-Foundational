@@ -3,8 +3,8 @@
  * The default template for displaying content. Used for both single and index/archive/search.
  *
  * @package WordPress
- * @subpackage WP_Forge
- * @since WP-Forge 5.5.1.7
+ * @subpackage Doode_Foundational
+ * @since Doode-Foundational 5.5.2.1
  */
 ?>
 

@@ -18,8 +18,8 @@
  * For more information on hooks, actions, and filters, see http://codex.wordpress.org/Plugin_API.
  *
  * @package WordPress
- * @subpackage WP_Forge
- * @since WP-Forge 5.5.1.7
+ * @subpackage Doode_Foundational
+ * @since Doode-Foundational 5.5.2.1
  */
 
 /**
@@ -225,7 +225,7 @@ add_action( 'wp_enqueue_scripts', 'wpforge_scripts', 0);
 /**
  * Enqueue our Foundation script with a very low priority so it loads as close to the closing body tag as possible
  *
- * @since WP-Forge 5.5.1.7
+ * @since Doode-Foundational 5.5.2.1
  */
 if ( ! function_exists( 'wpforge_prepare_foundation' ) ) {
 	function wpforge_prepare_foundation() {	
@@ -237,7 +237,7 @@ if ( ! function_exists( 'wpforge_prepare_foundation' ) ) {
 /**
  * Enque threaded comments script in footer
  *
- * @since WP-Forge 5.5.1.7 
+ * @since Doode-Foundational 5.5.2.1 
  */
 if ( ! function_exists( 'wpforge_enqueue_comments_reply' ) ) {
 	function wpforge_enqueue_comments_reply() {
@@ -251,7 +251,7 @@ if ( ! function_exists( 'wpforge_enqueue_comments_reply' ) ) {
 /**
  * Add Foundation 'active' class for the current menu item
  *
- * @since WP-Forge 5.5.1.7 
+ * @since Doode-Foundational 5.5.2.1 
  */
 if ( ! function_exists( 'wpforge_active_nav_class' ) ) {
 	function wpforge_active_nav_class( $classes, $item ) {
@@ -266,7 +266,7 @@ if ( ! function_exists( 'wpforge_active_nav_class' ) ) {
 /**
  * Use the active class of ZURB Foundation on wp_list_pages output.
  *
- * @since WP-Forge 5.5.1.7 
+ * @since Doode-Foundational 5.5.2.1 
  */
 if ( ! function_exists( 'wpforge_active_list_pages_class' ) ) {
 	function wpforge_active_list_pages_class( $input ) {
@@ -450,7 +450,7 @@ if ( ! function_exists( 'wpforge_widgets_init' ) ) {
  * Modified version of twentyeleven_footer_sidebar_class().
  *
  * @see Twenty Eleven Theme Functions.php line 557 
- * @since WP-Forge 5.5.1.7
+ * @since Doode-Foundational 5.5.2.1
  */
 if ( ! function_exists( 'wpforge_footer_sidebar_class' ) ) {
 	function wpforge_footer_sidebar_class() {
@@ -488,7 +488,7 @@ if ( ! function_exists( 'wpforge_footer_sidebar_class' ) ) {
  * Numeric Page Navi (built into the theme by default)
  *
  * @see http://320press.com/wp-foundation/
- * @since WP-Forge 5.5.1.7
+ * @since Doode-Foundational 5.5.2.1
  */
 if ( ! function_exists( 'wpforge_page_navi' ) ) {
 	function wpforge_page_navi($before = '', $after = '') {
@@ -544,7 +544,7 @@ if ( ! function_exists( 'wpforge_page_navi' ) ) {
 /**
  * Displays navigation to next/previous pages when applicable.
  *
- * @since WP-Forge 5.5.1.7
+ * @since Doode-Foundational 5.5.2.1
  */
 if ( ! function_exists( 'wpforge_content_nav' ) ) :
 
@@ -575,7 +575,7 @@ endif;
  * simply create your own wpforge_comment(), and that function will be used instead.
  * Used as a callback by wp_list_comments() for displaying the comments.
  *
- * @since WP-Forge 5.5.1.7
+ * @since Doode-Foundational 5.5.2.1
  */
 if ( ! function_exists( 'wpforge_comment' ) ) :
 
@@ -636,7 +636,7 @@ endif;
  * Prints HTML with meta information for current post in home and single post view: categories
  * Create your own wpforge_entry_meta_categories() to override in a child theme.
  *
- * @since WP-Forge 5.5.1.7
+ * @since Doode-Foundational 5.5.2.1
  */
 if ( ! function_exists( 'wpforge_entry_meta_categories' ) ) :
 	function wpforge_entry_meta_categories() {
@@ -651,7 +651,7 @@ endif;
 /**
  * Print HTML with meta information for the current post-date/time and author.
  *
- * @since WP-Forge 5.5.1.7
+ * @since Doode-Foundational 5.5.2.1
  */
 if ( ! function_exists( 'wpforge_entry_meta_header' ) ) :
 	function wpforge_entry_meta_header() {
@@ -674,7 +674,7 @@ endif;
  * Prints HTML with meta information in the footer for current post in home and single post view: tags.
  * Create your own wpforge_entry_meta_footer() to override in a child theme.
  *
- * @since WP-Forge 5.5.1.7
+ * @since Doode-Foundational 5.5.2.1
  */
 if ( ! function_exists( 'wpforge_entry_meta_footer' ) ) :
 
@@ -698,7 +698,7 @@ endif;
  * @param array Existing class values.
  * @return array Filtered class values.
  *
- * @since WP-Forge 5.5.1.7
+ * @since Doode-Foundational 5.5.2.1
  */
 if ( ! function_exists( 'wpforge_body_class' ) ) {
 	function wpforge_body_class( $classes ) {
@@ -727,7 +727,7 @@ if ( ! function_exists( 'wpforge_body_class' ) ) {
  * Custom Excerpt Length
  *
  * @see http://codex.wordpress.org/Function_Reference/the_excerpt
- * @since WP-Forge 5.5.1.7
+ * @since Doode-Foundational 5.5.2.1
  */
 if ( ! function_exists( 'wpforge_custom_excerpt' ) ) {
 	function wpforge_custom_excerpt( $length ) { 
@@ -740,7 +740,7 @@ if ( ! function_exists( 'wpforge_custom_excerpt' ) ) {
  * Replaces "[...]" (appended to automatically generated excerpts) with ...
  * and a Continue reading link.
  *
- * @since WP-Forge 5.5.1.7
+ * @since Doode-Foundational 5.5.2.1
  *
  * @param string $more Default Read More excerpt link.
  * @return string Filtered Read More excerpt link.
@@ -761,7 +761,7 @@ endif;
 /**
  * Remove .sticky from the post_class array
  *
- * @since WP-Forge 5.5.1.7
+ * @since Doode-Foundational 5.5.2.1
  */
 if ( ! function_exists( 'wpforge_filter_post_class' ) ) {
 	function wpforge_filter_post_class( $classes ) {
@@ -778,7 +778,7 @@ if ( ! function_exists( 'wpforge_filter_post_class' ) ) {
  * Removes recent comments styling injected into header by WordPress - Styles moved to style sheet
  *
  * @see https://gist.github.com/Narga/2887406
- * @since WP-Forge 5.5.1.7
+ * @since Doode-Foundational 5.5.2.1
  */
 if ( ! function_exists( 'wpforge_remove_recent_comments_style' ) ) {
 	function wpforge_remove_recent_comments_style() {  

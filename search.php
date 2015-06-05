@@ -3,8 +3,8 @@
  * The template for displaying Search Results pages.
  *
  * @package WordPress
- * @subpackage WP_Forge
- * @since WP-Forge 5.5.1.7
+ * @subpackage Doode_Foundational
+ * @since Doode-Foundational 5.5.2.1
  */
 
 get_header(); ?>
