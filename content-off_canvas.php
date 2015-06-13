@@ -1,6 +1,6 @@
 <?php
 /**
- * The template that supplies Off-Canvas support to WP-Forge
+ * The template that supplies Off-Canvas support to Doode-Foundational
  *
  * @package WordPress
  * @subpackage Doode_Foundational

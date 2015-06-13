@@ -8,11 +8,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-A simple, responsive theme, based on WP-Forge.  It integrates the highly successful Zurb Foundation 5 framework into WordPress, the leading open source content management system. 
+A simple, responsive theme, based on WP-Forge, that integrates the highly successful Zurb Foundation 5 framework into WordPress, the leading open source content management system. 
 
 == Bundled Resources ==
 
-1. Normalize Css 3.0.2 (http://opensource.org/licenses/MIT)
+1. Normalize CSS 3.0.2 (http://opensource.org/licenses/MIT)
 2. Foundation Framework 5.5.1 (Includes all the files located in the /js/foundation folder) - MIT License (https://github.com/zurb/foundation/blob/master/LICENSE) - This also includes the following bundled scripts located in the /js/vendor folder:
 	1. FastClick - https://github.com/ftlabs/fastclick (http://opensource.org/licenses/MIT)*
 	2. jQuery Cookie Plugin v1.4.1 https://github.com/carhartl/jquery-cookie*
@@ -23,23 +23,30 @@ A simple, responsive theme, based on WP-Forge.  It integrates the highly success
 3. Genericons 3.3 - GNU General Public License v2 or later (http://www.gnu.org/licenses/gpl-2.0.html)
 
 == Using rem values ==
-When you look at the style.css file you will notice that a majority of the values use rem (root em). I used the following tool to help with determining what rem value I needed to add:
+When you look at the style.css file you will notice that a majority of the values use rem (root em). The following tool helped determine the needed rem value:
 
 https://offroadcode.com/prototypes/rem-calculator/
 
-*When inputting a value for these divs, you can use px if that is what you are comfortable with. I do however recommend you use rem values to set the width of these divs.
+*To input a value for these divs, you can use px if that is what you are comfortable with. It is, however, recommended to use rem values to set the width of these divs.
 
 == Installation ==
 
-1. In your admin panel, go to Appearance -> Themes and click the Add New button.
-2. Either use the Search or Filter options to locate a Theme you would like to use or click upload and choose file, then select the theme's ZIP file. Click Install Now.
-3. Click Activate to use your new theme right away.
-4. Click Appearance -> Customize to start modifying your theme.
-5. In order to modify anything related to WordPress, you will need to make adjustments or add your own styles to style.css. In order to modify anything regarding Foundation, you need to make adjustments or add your own styles to foundation.css located in /css/foundation.css
+Since this theme is still in the initial development stages, it is highly recommended that you only install it on a develpment machine.  Setting up a development environment is beyond the scope of this README.  
+
+1. Set up a development environment on your local machine.  We suggest using LAMP (https://en.wikipedia.org/wiki/LAMP_%28software_bundle%29) on a Linux machine, WAMP (http://www.wampserver.com/en/) on a Windows machine, or MAMP (https://www.mamp.info/en/) on an Apple machine.
+2. Install WordPress (https://wordpress.org/download/).
+3. Install Git (http://www.git-scm.com/).
+4. Open a Git Bash window and navigate to your WordPress \wp-content\themes directory (/wordpress/wp-content/themes).  Execute the following command: git clone https://github.com/Techdoode/doode-foundational.git doode-foundational.
+5. In your browser, login to your WordPress site (which should be under localhost).
+6. In the WordPress admin panel, go to Appearance -> Themes.
+7. If all went well in step 4, you should see the Doode-Foundational theme among all the other themes you have loaded.
+3. Hover over Doode-Foundational until the Activate button appears, and click Activate to start using Doode-Foundational.
+4. Click Customize below the now-active Doode-Foundational theme screenshot.
+5. Mofify the theme to your heart's content using your favorite text editor on the files in the theme's directory.
 
 == Configuration ==
 
-WP-Forge makes use of the built in Theme Customizer. Once you have activated WP-Forge, go to Appearance -> Customize. The theme customizer of WP-Forge has nine (9) different panels. Each panel contains sections which you can use to change different aspects of WP-Forge.
+Doode-Foundational makes use of the built in Theme Customizer. Once you have activated Doode-Foundational, go to Appearance -> Customize. The Doode-Foundational theme customizer currently has nine (9) different panels. Each panel contains sections used to change different aspects of the theme.
 
 Header Panel
 ========================
@@ -60,7 +67,7 @@ Navigation Panel
 ========================
 The default Navigation section of the WordPress Customizer. You can also modify top-bar navigation as well as off-canvas navigation in this area. The following sections are available:
 
-	1. Main Navigation - WP-Forge supports 3 menus, Main menu, Footer Menu and Social Menu (see "Configure the Social Menu below). Select which menu appears in each location. You can edit your menu content on the Menus screen in the Appearance section.
+	1. Main Navigation - Doode-Foundational supports 3 menus, Main menu, Footer Menu and Social Menu (see "Configure the Social Menu below). Select which menu appears in each location. You can edit your menu content on the Menus screen in the Appearance section.
 	2. Navigation Container - Change the background color of the container that holds the Nav Wrapper.
 	3. Nav Wrapper* - Change the width and background color of the navigation area of your theme.
 	4. Top-Bar Settings - Configure the Top-Bar Navigation area of your theme. Set the position and change the text of the "Home" link.
@@ -120,7 +127,7 @@ Widgets are independent sections of content that can be placed into widgetized a
 	4. Third Footer Widget Area - An third optional widget area for your site footer (will only appear if a widget is added)
 
 == Configure the Social Menu ==
-WP-Forge allows you display links to your social media profiles, like Twitter and Facebook, with icons. This menu is located in the footer portion of the theme. All of the social icons have been assigned a specific color to make them standout from each other.
+Doode-Foundational allows you display links to your social media profiles, like Twitter and Facebook, with icons. This menu is located in the footer portion of the theme. All of the social icons have been assigned a specific color to make them standout from each other.
 
 1. Create a new Custom Menu, and assign it to the Social Links Menu location.
 2. Add links to each of your social services using the Links panel (do not use pages).

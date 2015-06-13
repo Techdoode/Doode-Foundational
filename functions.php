@@ -1,6 +1,6 @@
 <?php
 /**
- * WP-Forge functions and definitions.
+ * Doode-Foundational functions and definitions.
  *
  * Sets up the theme and provides some helper functions, which are used
  * in the theme as custom template tags. Others are attached to action and
@@ -47,7 +47,7 @@ if ( ! function_exists( 'wpforge_adjust_content_width' ) ) {
 
 /**
  * Sets up theme defaults and registers the various WordPress features that
- * WP-Forge supports.
+ * Doode-Foundational supports.
  *
  * @uses load_theme_textdomain() Support for translation/localization.
  * @uses add_editor_style() Support for Visual Editor stylesheet.
@@ -67,10 +67,10 @@ function wpforge_setup() {
 	add_theme_support( 'title-tag' );
 
 	/**
-	 * Makes WP-Forge available for translation.
+	 * Makes Doode-Foundational available for translation.
 	 *
 	 * Translations can be added to the /languages/ directory.
-	 * If you're building a theme based on WP-Forge, use find and replace
+	 * If you're building a theme based on Doode-Foundational, use find and replace
 	 * to change 'wp-forge' to the name of your theme in all the template files.
 	 *
 	 * @see http://codex.wordpress.org/Translating_WordPress#Translation_Tools
