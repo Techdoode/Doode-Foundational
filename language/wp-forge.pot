@@ -267,7 +267,7 @@ msgstr ""
 #: content-footer.php:38 content-footer.php:50 content-footer.php:87
 #: content-footer.php:99 content-footer.php:135 content-footer.php:147
 #: content-footer.php:172 content-footer.php:195
-msgid "http://themeawesome.com/responsive-wordpress-theme/"
+msgid "http://techdoode.com/"
 msgstr ""
 
 #: content-footer.php:38 content-footer.php:50 content-footer.php:87
